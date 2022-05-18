@@ -3,12 +3,11 @@ package common
 import (
 	"bytes"
 	"fmt"
+	"github.com/ray-project/kuberay/ray-operator/controllers/raycluster/utils"
 	"strconv"
 	"strings"
 
-	rayiov1alpha1 "github.com/ray-project/kuberay/ray-operator/api/raycluster/v1alpha1"
-	"github.com/ray-project/kuberay/ray-operator/controllers/utils"
-
+	rayiov1alpha1 "github.com/ray-project/kuberay/ray-operator/apis/raycluster/v1alpha1"
 	"k8s.io/apimachinery/pkg/api/resource"
 
 	logf "sigs.k8s.io/controller-runtime/pkg/log"

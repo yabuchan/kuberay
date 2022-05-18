@@ -13,20 +13,19 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-package controllers
+package raycluster
 
 import (
 	"context"
 	"fmt"
+	"github.com/ray-project/kuberay/ray-operator/controllers/raycluster/common"
+	"github.com/ray-project/kuberay/ray-operator/controllers/raycluster/utils"
 	"reflect"
 	"time"
 
-	rayiov1alpha1 "github.com/ray-project/kuberay/ray-operator/api/raycluster/v1alpha1"
-	"github.com/ray-project/kuberay/ray-operator/controllers/common"
-	"github.com/ray-project/kuberay/ray-operator/controllers/utils"
-
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	rayiov1alpha1 "github.com/ray-project/kuberay/ray-operator/apis/raycluster/v1alpha1"
 
 	corev1 "k8s.io/api/core/v1"
 	v1 "k8s.io/api/core/v1"

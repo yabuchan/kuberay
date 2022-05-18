@@ -1,12 +1,11 @@
 package common
 
 import (
+	"github.com/ray-project/kuberay/ray-operator/controllers/raycluster/utils"
 	"reflect"
 	"testing"
 
-	"github.com/ray-project/kuberay/ray-operator/controllers/utils"
-
-	rayiov1alpha1 "github.com/ray-project/kuberay/ray-operator/api/raycluster/v1alpha1"
+	rayiov1alpha1 "github.com/ray-project/kuberay/ray-operator/apis/raycluster/v1alpha1"
 
 	"github.com/stretchr/testify/assert"
 
