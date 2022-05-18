@@ -12,7 +12,7 @@ import (
 	rbacv1 "k8s.io/api/rbac/v1"
 
 	rayiov1alpha1 "github.com/ray-project/kuberay/ray-operator/apis/raycluster/v1alpha1"
-	_ "github.com/ray-project/kuberay/ray-operator/controllers/common"
+	_ "github.com/ray-project/kuberay/ray-operator/controllers/raycluster/common"
 	"k8s.io/client-go/tools/record"
 
 	"github.com/go-logr/logr"
