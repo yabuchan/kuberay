@@ -17,8 +17,9 @@ package raycluster
 
 import (
 	"context"
-	"github.com/ray-project/kuberay/ray-operator/controllers/raycluster/common"
 	"testing"
+
+	"github.com/ray-project/kuberay/ray-operator/controllers/raycluster/common"
 
 	. "github.com/onsi/ginkgo"
 	rayiov1alpha1 "github.com/ray-project/kuberay/ray-operator/apis/raycluster/v1alpha1"

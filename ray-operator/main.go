@@ -3,8 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/ray-project/kuberay/ray-operator/controllers/raycluster"
 	"os"
+
+	"github.com/ray-project/kuberay/ray-operator/controllers/raycluster"
 
 	"go.uber.org/zap/zapcore"
 	"sigs.k8s.io/controller-runtime/pkg/healthz"

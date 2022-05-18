@@ -18,10 +18,11 @@ package raycluster
 import (
 	"context"
 	"fmt"
-	"github.com/ray-project/kuberay/ray-operator/controllers/raycluster/common"
-	"github.com/ray-project/kuberay/ray-operator/controllers/raycluster/utils"
 	"reflect"
 	"time"
+
+	"github.com/ray-project/kuberay/ray-operator/controllers/raycluster/common"
+	"github.com/ray-project/kuberay/ray-operator/controllers/raycluster/utils"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
